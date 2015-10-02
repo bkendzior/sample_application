@@ -5,8 +5,8 @@
 	<groupId>org.springframework.samples</groupId>
 	<artifactId>spring-mvc-showcase</artifactId>
 	<name>spring-mvc-showcase</name>
-	<packaging>war</packaging>
-	<version>1.0.0-BUILD-SNAPSHOT</version>
+	<packaging>war-what-is-it-good-for</packaging>
+	<verddsion>1.0.0-BUILD-SNAPSHOT</version>
 	<properties>
 		<java-version>1.7</java-version>
 		<org.springframework-version>4.1.0.RELEASE</org.springframework-version>
