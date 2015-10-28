@@ -6,3 +6,5 @@ git add hello
 git add hello
 git commit -m "hello $date"
 git push
+echo "hallo $date" >> hello
+git push
