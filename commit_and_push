@@ -5,5 +5,5 @@ echo "hello $date" >> hello
 git add hello
 git commit -m "hello $date"
 git push
-echo "hello $date" >> hello
+echo "hallo $date" >> hello
 git push
