@@ -6,7 +6,6 @@ tddium:
   - "java -version"
   - "node -v"
   - "php -v" 
-  - "python -V"
   golang:
      golang_version: 1.3
   python:
