@@ -2,7 +2,7 @@ plan:
  - default
 profiles:
   default:
-    script: "commit_and_push"
+    script: "/home/brian/foo.sh"
     environment:
       'FOOBARVAR': 'foobarval'
       'PATH2': '/home/ubuntu/tmp'
