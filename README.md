@@ -1,6 +1,6 @@
 [![](https://ci.solanolabs.com:443/solano-sample-apps/spring-mvc-showcase/badges/172422.png)](https://ci.solanolabs.com:443/solano-sample-apps/spring-mvc-showcase/suites/172422)
 
-Spring MVC Showcase
+Spring MVC Showcase TEST
 -------------------
 Demonstrates the capabilities of the Spring MVC web framework through small, simple examples.
 After reviewing this showcase, you should have a good understanding of what Spring MVC can do and get a feel for how easy it is to use.
