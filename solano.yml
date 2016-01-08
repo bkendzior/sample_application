@@ -1,22 +1,40 @@
-tddium:
-  tests:
-  - "ruby -v"
-  - "gem -v"
-  - "go version"
-  - "java -version"
-  - "node -v"
-  - "php -v" 
-  - "python -V"
-  golang:
-     golang_version: 1.3
-  python:
-     python_version: cpython-3.4.0
-  java:
-    java_version: java-7-openjdk
-  leiningen:
-    leiningen_version: 2.4.2
-  scala:
-    scala_version: 2.10.4
-  nodejs_version: 0.10.31
-  php_version: 5.3.29
-  ruby_version: ruby-2.1.5
+tests:
+- "ruby -v"
+- "gem -v"
+- "go version"
+- "java -version"
+- "node -v"
+- "php -v" 
+- "python -V"
+golang:
+   golang_version: 1.3
+python:
+   python_version: cpython-3.4.0
+java:
+  java_version: java-7-openjdk
+leiningen:
+  leiningen_version: 2.4.2
+scala:
+  scala_version: 2.10.4
+nodejs_version: 0.10.31
+php_version: 5.3.29
+ruby_version: ruby-2.1.5
+notify:
+- channel: email
+  message: "[Solano CI] Build %build-id% %status% from %repo%/%branch% with profile %profile-name% Success:%passed-count% Failures:%failed-count% "
+  recipients:
+  - brian@solanolabs.com
+  - committers
+  - brian+theguy@solanolabs.com
+  - brian+theman@solanolabs.com
+  body: '
+  <a href="https://test.net/projects/1/solano_results/%build-id%"> View Test Details On LaunchBay </a>
+  %default-email-body%
+  '
+plan:
+  - integration_basic
+profiles:
+  integration_basic:
+    environment:
+      GROUP: "Basic_Test"
+      RERUN_TESTS: 2
