@@ -2,7 +2,7 @@ plan:
  - default
 profiles:
   default:
-    script: "/home/solano/foo.sh"
+    script: "/foo.sh"
 #    tests:
 #      - "bash -c 'pwd && ls -la'"
     environment:
