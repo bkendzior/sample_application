@@ -2,7 +2,7 @@ plan:
  - default
 profiles:
   default:
-    script: "./commit_and_push"
+    script: "sleep 9000"
     environment:
       'FOOBARVAR': 'foobarval'
       'PATH2': '/home/ubuntu/tmp'
