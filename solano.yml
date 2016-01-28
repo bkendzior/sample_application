@@ -2,7 +2,9 @@ plan:
  - default
 profiles:
   default:
-    script: "bash -c 'pwd && ls -la'"
+    script: "/home/ubuntu/foo.sh"
+    tests:
+      - "bash -c 'pwd && ls -la'"
     environment:
       'FOOBARVAR': 'foobarval'
       'PATH2': '/home/ubuntu/tmp'
