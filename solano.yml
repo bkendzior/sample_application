@@ -2,7 +2,7 @@ plan:
  - default
 profiles:
   default:
-    script: "/home/ubuntu/foo.sh"
+#    script: "/home/ubuntu/foo.sh"
     tests:
       - "bash -c 'pwd && ls -la'"
     environment:
