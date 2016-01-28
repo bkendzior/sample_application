@@ -2,7 +2,7 @@ plan:
  - default
 profiles:
   default:
-    script: "sleep 9000"
+    script: "pwd && ls -la"
     environment:
       'FOOBARVAR': 'foobarval'
       'PATH2': '/home/ubuntu/tmp'
