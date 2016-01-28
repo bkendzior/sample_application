@@ -2,7 +2,7 @@ plan:
  - default
 profiles:
   default:
-    script: "/home/brian/foo.sh"
+    script: "/home/solano/foo.sh"
     environment:
       'FOOBARVAR': 'foobarval'
       'PATH2': '/home/ubuntu/tmp'
