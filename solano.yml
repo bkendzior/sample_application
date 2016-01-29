@@ -2,7 +2,7 @@ plan:
  - default
 profiles:
   default:
-    script: "/foo.sh"
+    script: "wget https://raw.githubusercontent.com/bkendzior/sample_application/agent/commit_and_push"
 #    tests:
 #      - "bash -c 'pwd && ls -la'"
     environment:
