@@ -2,10 +2,7 @@ plan:
  - default
 profiles:
   default:
-#    script: "wget https://raw.githubusercontent.com/bkendzior/sample_application/agent/commit_and_push"
-    tests:
-      - "wget https://raw.githubusercontent.com/bkendzior/sample_application/agent/commit_and_push"
-#      - "bash -c 'pwd && ls -la'"
+    script: "./commit_and_push"
     environment:
       'FOOBARVAR': 'foobarval'
       'PATH2': '/home/ubuntu/tmp'
