@@ -5,6 +5,6 @@ profiles:
     script: "/usr/local/repos/commit_and_push"
     environment:
       'FOOBARVAR': 'foobarval'
-      'PATH': '/usr/bin'
+      'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
       'PATH2': '/home/ubuntu/tmp'
     timeout: 300
