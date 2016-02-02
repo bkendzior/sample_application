@@ -2,7 +2,7 @@ plan:
  - default
 profiles:
   default:
-    script: "/usr/local/repos/sample_application/commit_and_push"
+    script: "/usr/local/repos/commit_and_push"
     environment:
       'FOOBARVAR': 'foobarval'
       'PATH2': '/home/ubuntu/tmp'
