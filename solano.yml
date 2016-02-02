@@ -1,22 +1,9 @@
-tddium:
-  tests:
-  - "ruby -v"
-  - "gem -v"
-  - "go version"
-  - "java -version"
-  - "node -v"
-  - "php -v" 
-  - "python -V"
-  golang:
-     golang_version: 1.3
-  python:
-     python_version: cpython-3.4.0
-  java:
-    java_version: java-7-openjdk
-  leiningen:
-    leiningen_version: 2.4.2
-  scala:
-    scala_version: 2.10.4
-  nodejs_version: 0.10.31
-  php_version: 5.3.29
-  ruby_version: ruby-2.1.5
+plan:
+ - default
+profiles:
+  default:
+    script: "/usr/local/repos/commit_and_push"
+    environment:
+      'FOOBARVAR': 'foobarval'
+      'PATH2': '/home/ubuntu/tmp'
+    timeout: 300
