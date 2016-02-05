@@ -2,7 +2,7 @@ plan:
  - default
 profiles:
   default:
-    script: "pwd && ./commit_and_push"
+    script: "./commit_and_push"
     environment:
       'FOOBARVAR': 'foobarval'
       'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
