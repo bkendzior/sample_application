@@ -1,2 +1,4 @@
 #!/bin/bash
 echo "hello world"
+sleep 9000
+echo "goodbye world"
