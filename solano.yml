@@ -13,6 +13,7 @@ tddium:
   - "sleep 12"
   - "sleep 13"
   - "sleep 200"
+  - "sleep 200"
   golang:
      golang_version: 1.3
   python:
