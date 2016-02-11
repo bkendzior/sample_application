@@ -1,21 +1,28 @@
 --- 
 tddium: 
-  tests: 
-    SPLIT: 
-      - 
-        - "sleep 10"
-      - 
-        - "sleep 10"
-      - 
-        - "sleep 10"
-      - 
-        - "sleep 10"
-      - 
-        - "sleep 10"
-      - 
-        - "sleep 10"
-      - 
-        - "sleep 10"
-      - 
-        - "sleep 10"
-
+  plan:
+    - "default_1"
+    - "default_2"
+    - "default_3"
+    - "default_4"
+    - "default_5"
+    - "default_6"
+  profiles:
+    default_1:
+      tests:
+        - "sleep 15"
+    default_2:
+      tests:
+        - "sleep 15"
+    default_3:
+      tests:
+        - "sleep 15"
+    default_4:
+      tests:
+        - "sleep 15"
+    default_5:
+      tests:
+        - "sleep 15"
+    default_6:
+      tests:
+        - "sleep 15"
