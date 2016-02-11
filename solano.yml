@@ -6,7 +6,13 @@ tddium:
   - "java -version"
   - "node -v"
   - "php -v" 
-  - "python -V"
+  - "sleep 10"
+  - "sleep 15"
+  - "sleep 20"
+  - "sleep 11"
+  - "sleep 12"
+  - "sleep 13"
+  - "sleep 200"
   golang:
      golang_version: 1.3
   python:
