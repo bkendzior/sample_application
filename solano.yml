@@ -1,7 +1,7 @@
 --- 
 tddium: 
   system:
-    session_manager: "parallel_profile"
+    session_manager: "classic"
   plan:
     - "default_1"
     - "default_2"
