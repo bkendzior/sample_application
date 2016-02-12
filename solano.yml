@@ -12,19 +12,19 @@ tddium:
   profiles:
     default_1:
       tests:
-        - "sleep 15"
+        - "sleep 1"
     default_2:
       tests:
-        - "sleep 15"
+        - "sleep 2"
     default_3:
       tests:
-        - "sleep 15"
+        - "sleep 3"
     default_4:
       tests:
-        - "sleep 15"
+        - "sleep 4"
     default_5:
       tests:
-        - "sleep 15"
+        - "sleep 5"
     default_6:
       tests:
-        - "sleep 15"
+        - "sleep 6"
