@@ -8,10 +8,10 @@ tddium:
   profiles:
     default_1:
       tests:
-        - "sleep 1"
+        - "sleep 10"
     default_2:
       tests:
-        - "sleep 2"
+        - "sleep 100"
     default_3:
       tests:
         - "sleep 3"
