@@ -19,5 +19,5 @@ tddium:
       tests:
         - "sleep 4"
     default_5:
-      tests:
+      tests:sdf
         - "sleedp 5dd"
