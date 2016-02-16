@@ -16,4 +16,6 @@ tddium:
     default_3:
       tests:
         - "sleep 22
-
+   default_4:
+      tests:
+        - "sleep 22
