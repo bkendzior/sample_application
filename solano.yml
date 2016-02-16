@@ -20,4 +20,4 @@ tddium:
         - "sleep 4"
     default_5:
       tests:
-        - "sleep 5"
+        - "sleep 5dd"
