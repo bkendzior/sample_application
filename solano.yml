@@ -5,20 +5,15 @@ tddium:
   plan:
     - "default_1"
     - "default_2"
+    - "default_3"
   profiles:
     default_1:
       tests:
         - "sleep 10"
     default_2:
       testds:
-        - "sleep 99999"
+        - "sleep 999"
     default_3:
       tests:
-        - "sleep 3"
-    default_4:
-      tests:
-        - "sleep 4"
-    default_5:
-      tests:sdf
-        - "sleedp 5dd"
-dd
+        - "sleep 22
+
