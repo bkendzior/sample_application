@@ -10,7 +10,7 @@ tddium:
       tests:
         - "sleep 10"
     default_2:
-      tests:
+      testds:
         - "sleep 99999"
     default_3:
       tests:
