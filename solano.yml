@@ -1,7 +1,5 @@
 --- 
 tddium: 
-  system:
-    session_manager: "instafail"
   plan:
     - "default_1"
     - "default_2"
