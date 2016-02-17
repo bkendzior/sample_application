@@ -1,7 +1,7 @@
 --- 
 tddium: 
   system:
-    session_manager: "parallel_profile"
+    session_manager: "instafail"
   plan:
     - "default_1"
     - "default_2"
@@ -11,7 +11,7 @@ tddium:
         - "sleep 10"
     default_2:
       tests:
-        - "sleep 99999"
+        - "sleep 99"
     default_3:
       tests:
         - "sleep 3"
