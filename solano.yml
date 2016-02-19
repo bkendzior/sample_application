@@ -6,7 +6,7 @@ tddium:
   profiles:
     default_1:
       tests:
-        - "sleep 10"
+        - "sleep 10999"
     default_2:
       tests:
         - "sleep 99"
