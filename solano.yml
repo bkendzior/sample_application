@@ -2,11 +2,20 @@
 tddium: 
   plan:
     - "default_1"
-    - "default_2"
   profiles:
     default_1:
       tests:
-        - "sleep 10999"
+        - "sleep 100"
+        - "sleep 99"
+        - "sleep 98"
+        - "sleep 97"
+        - "sleep 96"
+        - "sleep 95"
+        - "sleep 94"
+        - "sleep 93"
+        - "sleep 92"
+        - "sleep 91"
+        - "sleep 90"
     default_2:
       tests:
         - "sleep 99"
