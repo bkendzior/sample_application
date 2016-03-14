@@ -1,4 +1,3 @@
---- 
 tddium: 
   tests:
     - "sleep 1"
