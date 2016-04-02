@@ -1,7 +1,7 @@
 tddium: 
   tests:
     - "sleep 1"
-    - "sleep 9"
+    - "sleep 920"
     - "sleep 9"
     - "sleep 9"
     - "sleep 9"
