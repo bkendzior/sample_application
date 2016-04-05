@@ -2,3 +2,4 @@ tddium:
   tests:
     - "sleep 9"
     - "sleep 9"
+    - "sleep 9"
