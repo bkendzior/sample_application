@@ -1,5 +1,7 @@
 tddium: 
+  timeout: 1500
   tests:
+    - "sleep 1"
     - "sleep 9"
-    - "sleep 9"
-    - "sleep 9"
+    - "sleep 1400"
+    - "aws --version"
