@@ -3,5 +3,4 @@ tddium:
   tests:
     - "sleep 1"
     - "sleep 9"
-    - "sleep 1400"
     - "aws --version"
