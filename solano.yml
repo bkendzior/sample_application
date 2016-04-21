@@ -1,0 +1,10 @@
+plan:
+ - default
+profiles:
+  default:
+    script: "/usr/local/purple_rain"
+    environment:
+      'FOOBARVAR': 'foobarval'
+      'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+      'PATH2': '/home/ubuntu/tmp'
+    timeout: 300
