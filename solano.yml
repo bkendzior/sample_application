@@ -4,3 +4,5 @@ tddium:
     - "sleep 1"
     - "sleep 9"
     - "aws --version"
+  system:
+    queue: 'docker'
