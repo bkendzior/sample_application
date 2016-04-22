@@ -2,7 +2,7 @@ plan:
  - default
 profiles:
   default:
-    script: "/usr/local/purple_rain"
+    script: "/usr/local/repos/sample_application/purple_rain.sh"
     environment:
       'FOOBARVAR': 'foobarval'
       'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
