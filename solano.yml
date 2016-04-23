@@ -2,7 +2,7 @@ plan:
  - default
 profiles:
   default:
-    script: "sudo /usr/local/bin/solano run"
+    script: "/solano/agent/purple_rain.sh"
     environment:
       'FOOBARVAR': 'foobarval'
       'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
