@@ -2,7 +2,7 @@ plan:
  - default
 profiles:
   default:
-    script: "/usr/local/bin/solano run"
+    script: "sudo /usr/local/bin/solano run"
     environment:
       'FOOBARVAR': 'foobarval'
       'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
