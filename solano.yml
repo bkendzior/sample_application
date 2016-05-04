@@ -1,5 +1,6 @@
 tests: 
   - "$TDDIUM_REPO_ROOT/purple_rain.sh"
+  - "echo $RUBY_PLATFORM"
 environment:
   'FOOBARVAR': 'foobarval'
   'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
