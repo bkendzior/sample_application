@@ -99,6 +99,3 @@ DEPENDENCIES
   rails (= 3.2.17)
   therubyracer (~> 0.11.4)
   unicorn
-
-BUNDLED WITH
-   1.11.2
