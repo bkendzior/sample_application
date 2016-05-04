@@ -5,3 +5,5 @@ environment:
   'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
   'PATH2': '/home/ubuntu/tmp'
 timeout: 9000
+
+bundler_version: 1.10.6
