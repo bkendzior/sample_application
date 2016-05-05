@@ -7,4 +7,4 @@ environment:
   'PATH2': '/home/ubuntu/tmp'
 timeout: 9000
 
-bundler_version: 1.10.6
+bundler_version: 1.7.12
