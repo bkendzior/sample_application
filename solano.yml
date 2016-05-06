@@ -8,3 +8,15 @@ environment:
 timeout: 9000
 
 bundler_version: 1.7.12
+
+notify:
+- channel: email
+  message: "[Solano CI] Build %build-id% %status% from %repo%/%branch% with profile %profile-name% Success:%passed-count% Failures:%failed-count% "
+  recipients:
+  - committers
+  - brian@solanolabs.com
+  body: '
+  <a href="https://launchbay.bigcommerce.net/projects/1/solano_results/%build-id%"> View Test Details On LaunchBay </a>
+  %default-email-body%
+  '
+
