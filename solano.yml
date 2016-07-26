@@ -2,7 +2,7 @@ plan:
  - default
 profiles:
   default:
-    script: "/usr/local/repos/commit_and_push"
+    script: "/go_go_penguin.sh"
     environment:
       'FOOBARVAR': 'foobarval'
       'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
