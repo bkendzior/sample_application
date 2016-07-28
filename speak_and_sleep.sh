@@ -6,4 +6,20 @@ do
   sleep 1
 done
 
-echo "all drunk!"
+echo ''
+echo '         .   *   ..  . *  *'
+echo '       *  * @()Ooc()*   o  .'
+echo '           (Q@*0CG*O()  ___'
+echo '          |\_________/|/ _ \'
+echo '          |  |  |  |  | / | |'
+echo '          |  |  |  |  | | | |'
+echo '          |  |  |  |  | | | |'
+echo '          |  |  |  |  | | | |'
+echo '          |  |  |  |  | | | |'
+echo '          |  |  |  |  | \_| |'
+echo '          |  |  |  |  |\___/'
+echo '          |\_|__|__|_/|'
+echo '           \_________/'
+echo ''
+echo '           all drunk!'
+
