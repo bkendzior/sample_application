@@ -2,7 +2,7 @@ plan:
  - default
 profiles:
   default:
-    script: "/go_go_penguin.sh"
+    script: "/usr/local/repos/speak_and_sleep.sh"
     environment:
       'FOOBARVAR': 'foobarval'
       'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
