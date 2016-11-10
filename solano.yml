@@ -4,7 +4,7 @@ profiles:
   default:
     script: "/usr/local/repos/speak_and_sleep.sh"
     environment:
-      'FOOBARVAR': 'foobarval'
+      'FOOBARVAR': 'newval'
       'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
       'PATH2': '/home/ubuntu/tmp'
     timeout: 9000
