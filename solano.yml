@@ -1,10 +1,4 @@
-plan:
- - default
-profiles:
-  default:
-    script: "/usr/local/repos/speak_and_sleep.sh"
-    environment:
-      'FOOBARVAR': 'newval'
-      'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
-      'PATH2': '/home/ubuntu/tmp'
-    timeout: 9000
+tests:
+  - command: "./speak_and_sleep.sh"
+    name: "Test for echo"
+  - "./speak_and_sleep"
