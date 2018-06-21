@@ -1,4 +1,2 @@
-tests:
-  - command: "./speak_and_sleep.sh"
-    name: "Test for echo"
-  - "./speak_and_sleep"
+---
+script: "./speak_and_sleep.sh"
