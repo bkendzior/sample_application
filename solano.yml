@@ -1,2 +1,25 @@
 ---
-script: "./speak_and_sleep.sh"
+pipeline:
+  - unit_test
+  - build
+  - deploy
+edges:
+  - build: deploy
+  - unit_test: deploy
+profiles:
+  unit_test:
+    script: |
+      echo 'Running unit tests'
+  build:
+    script: |
+      set -x
+      echo 'Hello World' > build.txt
+      exit 0
+    output:
+      - build.txt
+  deploy:
+    input:
+      - build.txt
+    script: |
+      cat build.txt
+      echo "Updated"
