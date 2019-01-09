@@ -22,4 +22,4 @@ profiles:
       - build.txt
     script: |
       cat build.txt
-      echo "Updated!"
+      echo "Shipit!"
