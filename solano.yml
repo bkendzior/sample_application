@@ -22,4 +22,4 @@ profiles:
       - build.txt
     script: |
       cat build.txt
-      echo "Shipped it?"
+      echo "Shipped it??"
